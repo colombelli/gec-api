@@ -9,4 +9,4 @@ An API for the grammatical error correction NLP task, using HuggingFace and Fast
 
 #### httpie usage:
     
-    $ http http://127.0.0.1:8000/correct text="please, correct the spelling of this text for me"
+    $ http http://127.0.0.1:8000/correct language='en' text="please, correct the spelling of this text for me"
